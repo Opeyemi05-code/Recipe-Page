@@ -11,7 +11,7 @@
 }
 .container {
     width: 90%;
-    padding: 5%;
+    padding: 10px;
     margin: auto;
 }
 .feranmi{
@@ -20,8 +20,12 @@
 img {
     width: 100%;
     border-radius:29px;
+    transition: all 150ms ease;
 }
-
+img:hover{
+    transform: scale(1.1);
+    
+}
 p {
     font-size: 16px;
 }
@@ -56,7 +60,7 @@ hr{
     font-size: 13px; 
     text-align: center; 
     margin-top: 4%;
-    margin-bottom: -15px;
+    margin-bottom: 1px;
 }
 .attribution a { 
     color: #a5400e;
