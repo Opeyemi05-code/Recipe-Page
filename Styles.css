@@ -1,9 +1,9 @@
   body {
-    background-color: #f4decb;
+    background-color: #f2ddcb;
     margin-left: auto;
     margin-right: auto;
 }
-.main{
+.main {
     background-color: #ffffff; 
     width: 50%;
     border-radius: 29px;
@@ -34,7 +34,7 @@ p {
     font-family: georgia;
 }
 .preparation {
-    background-color: #f4decb52;
+    background-color: #e40ee809;
     padding: 3px 8px;
 }
 .purple {
@@ -49,8 +49,8 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 35px;
-    margin-right: 215px;
+    padding-left: 25px;
+    padding-right: 150px; 
 }
 .gram{
     color: rgb(124, 53, 2);  
@@ -63,7 +63,7 @@ hr{
     margin-bottom: 1px;
 }
 .attribution a { 
-    color: #a5400e;
+    color: #7c2c04;
     text-decoration: none;
     font-weight: 600;
 }
@@ -72,16 +72,17 @@ h1 {
     font-weight: 900;
 }
 .fer ol li::marker {
-    color: #a5400e;
+    color: #8c3307;
+    font-weight: 900;
 }
 .ope ul li::marker {
-    color:#a5400e;
+    color:#8c3307;
 }
 ul li, ol li {
     margin-bottom: 5px;
 }
 .preparation ul li::marker{
-    color: rgba(180, 10, 180, 0.977);
+    color: rgba(121, 5, 121, 0.948);
 }
 
 @media (max-width: 700px ) {
@@ -91,3 +92,16 @@ ul li, ol li {
     }
 }  
 
+/* Default styles for desktop view */
+body {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Styles for mobile view */
+@media only screen and (max-width: 375px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+}
