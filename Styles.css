@@ -23,7 +23,6 @@ img {
 }
 img:hover{
     transform: scale(1.1);
-    
 }
 p {
     font-size: 16px;
@@ -85,13 +84,13 @@ ul li, ol li {
     color: rgba(121, 5, 121, 0.948);
 }
 
-@media (max-width: 600px) {
+@media (min-width: 340px) {
     .main{
-        max-width: 80%;
+        max-width: 60%;
     }
 }
 
- @media (max-width: 600px) {
+ @media (max-width: 1140px) {
     .item1 {
         width: 50%;
     }
